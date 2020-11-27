@@ -5,12 +5,12 @@
 ### Subject: Fundamentals of Data Analysis  , 1st Semester 2020-2021
 Repository to save Fundamentals of Data Analysis  tasks from GMIT's Higher Superior Diploma of Science in Computing (Data analysis))
 
-## First task: count function (1),(2),(3),(4)
+## A) First task: count function (1),(2),(3),(4)
 the first task is a script that asks the user two inputs: first one to know the total number of items in the list he wants to add, and as soon as the number is set, will ask to populate the items of the list. as a final output, the result will be a dictionary that will be set with the values of the list as keys followed by the number of times each of the iteams appear in the list. As an asset and as required in the module, there is no need to import any extra library since all the functions are Python's built in functions.
 
-As an asset, it includes the possibility to leave off all empty places in a list leading to a more accurate reality in case by mistake there is a user that presses "enter" quicker than he should. At last, as a matter to "make up" the output, the scripts prints out in two different versions the dictionary, the first one as it is, the second one in vertical (simulating a list) and sorted all the values by the Key of the dictionary.
+In addition, it includes the possibility to leave off all empty places in a list leading to a more accurate reality in case by mistake there is a user that presses "enter" quicker than he should. 
 
-## Second task: diceroll function (2),(4),(5)
+## B) Second task: diceroll function (2),(4),(5)
 The section called "B) diceroll" is in the same Jupyter document called Tasks_file. By executing the function, the system will ask how many dices you want to roll and the number of times you want to roll them. As output, it will generate a dictionary saying the number of times the sum of of dices has showed up.
 
 ## Bibliography: 
