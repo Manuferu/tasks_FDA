@@ -5,19 +5,35 @@
 ### Subject: Fundamentals of Data Analysis  , 1st Semester 2020-2021
 Repository to save Fundamentals of Data Analysis  tasks from GMIT's Higher Superior Diploma of Science in Computing (Data analysis))
 
-## A) First task: count function (1),(2),(3),(4)
-the first task is a script that asks the user two inputs: first one to know the total number of items in the list he wants to add, and as soon as the number is set, will ask to populate the items of the list. as a final output, the result will be a dictionary that will be set with the values of the list as keys followed by the number of times each of the iteams appear in the list. As an asset and as required in the module, there is no need to import any extra library since all the functions are Python's built in functions.
+## A) First task: count function (1),(2),(3)
 
-In addition, it includes the possibility to leave off all empty places in a list leading to a more accurate reality in case by mistake there is a user that presses "enter" quicker than he should. 
+Counts.py has been created with the aim to count the items appearing in a list. to do that, this notebook has devided the task in two parts. The first one asks the user to provide two inputs: The number of elements the list will contain. 
+
+After that, it will the script will ask the user to proper populate the list taking into account the number of items putted in step 1.
+
+After all this it will output a dictionary with the numebr of times each item appears in the list.
+
+Assets: There is no need to import any extra library since all the functions are Python's built in functions. In addition, it includes the possibility to leave off all empty places in a list leading to a more accurate reality in case by mistake there is a user that presses "enter" quicker than he should. 
 
 ## B) Second task: diceroll function (2),(4),(5)
-The section called "B) diceroll" is in the same Jupyter document called Tasks_file. By executing the function, the system will ask how many dices you want to roll and the number of times you want to roll them. As output, it will generate a dictionary saying the number of times the sum of of dices has showed up.
 
-## C) Third task: numpy.random.binomial coin flipping task (6), (7)
-The scripts aims to show the probability to get a head when flipping a coin. To do that, the user is asked two questions: How many times you want to flip the coin? , and, how many times you want to repeat this action?. to simulate the flipping of the coin it has been set up a coin flipping using Numpy's random binomial function, where N and size parameters are inputed by answering the before mentioned questions. As a result it is displayed a plot where it is stored how many times has been observed a head in the total number of actions. As expected, the result is a shaped curve in the distribution of results
+The section called "B) diceroll" is also devided in two parts. The part one defines a function that does all the magic. In this case,the script asks the user to provide the number of dices the user wants to play. Second question is how many times user would like to make the dice roll. Important to enter allways an integer value, otherwise the script won't work (it will raise an alert). The second part of the script just call the function created in the first part and gives the desired output.
 
-## D) fourth task: simspon's paradox task
-The scripts sets 4 different datasets following different x inputs (using linspace function) and 4 different outputs following the path Y=Ax + B. A and B for all four of the cases are set by the user by answering different questions when running the script. After all groups are set, at last a new dataset as a result of concatenate is set and line regression is run again. As a result it is clear that when a dataset is split by groups, each of those follow a pattern that diffears from the one with all groups listed in one unique dataset.
+## C) Third task: numpy.random.binomial coin flipping task (6), (7), (8)
+
+The script asks the user two questions: how many times wants to flip the coin and how many times wants to repeat the action. After knowing the input values, those values feed the coin variable (where it is used the numpy.random.binomial function to simulate the flip of the coin).
+
+At last, it uses "Series" module from Pandas library to assign a X labelling in the distribution plot (from Seaborn library).
+
+Please note that, it has been set the same seed value at the begining to get the same number to create the random values.
+
+## D) fourth task: simspon's paradox task (9), (10), (11), (12)
+
+This script tries to demonstrate the Simpson's paradox. Simpson's paradox is a phenonmenon in probability in which a trend appears in several different groups of data but disappears or reverses when these groups are combined.  
+
+The script asks the user 4 different parameters a and b to create 4  different datasets following the path Y=Ax + B. After all groups are set, at last a new dataset is set as a concatenate of the 4 groups. For either the 4 groups and the dataset containing all of them, a line regression showing the pattern is represented.
+
+
 
 ## Bibliography: 
 #### (1) GeeksforGeeks : https://www.geeksforgeeks.org/python-get-a-list-as-input-from-user/
@@ -27,7 +43,10 @@ The scripts sets 4 different datasets following different x inputs (using linspa
 #### (5) Stackoverflow : (https://stackoverflow.com/questions/41267131/sum-of-n-dice-in-python)
 #### (6) cmdlinetips : https://cmdlinetips.com/2018/12/simulating-coin-toss-experiment-with-binomial-random-numbers-using-numpy/
 #### (7) Seaborn : https://seaborn.pydata.org/generated/seaborn.distplot.html
-#### (8) quantdare : https://quantdare.com/the-simpson-paradox/
-#### (9) pandas : https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
-#### (10) Stackoverflow: https://stackoverflow.com/questions/59670195/filling-multiple-columns-in-dataframe
+#### (8) numpy.random.binomial : (https://numpy.org/doc/stable/reference/random/generated/numpy.random.binomial.html)
+#### (9) quantdare : https://quantdare.com/the-simpson-paradox/
+#### (10) pandas : https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
+#### (11) Stackoverflow: https://stackoverflow.com/questions/59670195/filling-multiple-columns-in-dataframe
+#### (12) Wikipedia: (https://en.wikipedia.org/wiki/Simpson%27s_paradox)
+
 
